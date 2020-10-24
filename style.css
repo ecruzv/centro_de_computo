@@ -1,0 +1,277 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.contenedor{
+    background-image: url(img/background.jpg);
+    display: flex;
+    min-height: 700px;
+    display: -ms-flex;
+    display: -webkit-flex;
+    height: calc (100vh - 60px);
+    
+}
+.contenedor div {
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.layer1{
+    width: 20%;
+    min-height: 700px;
+    background-color:#00000030;
+}
+
+.layer2{
+    width: 80%;
+    min-height: 700px;
+}
+
+.logo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-principal img{
+    width: 70%;
+    height: auto;
+    
+  }
+
+.menu{
+    padding: 50px 0 0 0;
+
+  
+}
+.menu label{
+    display:block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.menu a{
+    display:block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.menu-efecto:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    
+  
+}
+
+.menu1{
+    background-color: #B91867;
+    
+
+}
+.menu2{
+    background-color: #871E6A;
+    margin-top: 20px;
+}
+.menu3{
+    background-color: #871E6A;
+    margin-top: 20px;
+}
+.menu4{
+    background-color: #5A256C;
+    margin-top: 20px;
+}
+.menu5{
+    background-color: #5A256C;
+    margin-top: 20px;
+    
+}
+
+footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.content div{
+    position: absolute;
+    line-height: 1.5;
+    transition: all 600ms ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.90);
+    padding: 5px 20px 10px 20px ;
+    background: #ffffffeb;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+
+#radio1,#radio2,#radio3,#radio4,#radio5,#radio6{
+    display: none;
+}
+
+#radio1:checked ~ .tab1,
+#radio2:checked ~ .tab2,
+#radio3:checked ~ .tab3,
+#radio4:checked ~ .tab4,
+#radio5:checked ~ .tab5,
+#radio6:checked ~ .tab6
+{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.tab1 {
+    box-sizing: content-box;
+
+
+}
+.tab5 {
+    box-sizing: content-box;
+    min-height: calc(100vh - 100px);
+    min-width: 70vw;
+
+}
+
+.tab5 iframe{
+    
+    min-height: calc(100vh - 20vh);
+    min-width: 70vw;
+
+}
+
+.cotizaciones-titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5A256C;
+    color: white;
+    margin-top: 50px;
+
+
+}
+
+.cotizaciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+.cotizaciones header{
+margin-top: 30px;
+margin-right: 50px;
+
+}
+
+
+
+/* AQUI EMPIEZA EL CSS DE EQUIPOS*/
+
+.layer1-equipos{
+    width: 40%;
+    min-height: 700px;
+    background-color:#00000030;
+}
+
+.layer2-equipos{
+    width: 60%;
+    min-height: 700px;
+}
+
+.menu img{
+    width: 100px;
+    height: 100px;
+}
+
+.computadoras{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-equipos{
+   margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #5A256C;
+}
+
+.nombres-equipos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+     color: white;
+     align-items: center;
+     font-size: 20px;
+     margin-left: 5%;
+     margin-right: 5%;
+     align-items: center;
+     
+ }
+
+ .caracteristicas{
+    display: flex;
+ }
+.caracteristicas img{
+    width: 40%;
+    height: 40%;
+}
+.titulo-caracteristicas{
+    color: black;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.descripcion{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.descripcion header{
+    margin-left: 20px;
+    margin-top: 20px;
+}
